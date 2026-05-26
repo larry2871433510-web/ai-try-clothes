@@ -1,6 +1,5 @@
 import Fashn from "fashn";
 import {
-  mapAspectRatioToFashnAspectRatio,
   mapGarmentTypeToFashnCategory,
   mapQualityToFashnMode
 } from "@/lib/ai/garmentMapping";
@@ -35,7 +34,6 @@ export const fashnProvider: TryOnProvider = {
           model_image: modelImageUrl,
           garment_image: input.garmentImageUrl,
           category: mapGarmentTypeToFashnCategory(input.garmentType),
-          aspect_ratio: mapAspectRatioToFashnAspectRatio(input.aspectRatio),
           mode: mapQualityToFashnMode(input.quality),
           return_base64: false
         },
