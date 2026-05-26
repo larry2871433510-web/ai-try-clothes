@@ -4,6 +4,7 @@ import { normalizeTryOnQuality } from "@/lib/ai/garmentMapping";
 import { createTryOnTask } from "@/lib/ai/tryonService";
 
 export const runtime = "nodejs";
+export const maxDuration = 60;
 
 export async function POST(request: Request) {
   try {
