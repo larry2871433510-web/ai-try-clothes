@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 960">
+  <rect width="720" height="960" fill="#edf1f2"/>
+  <rect x="80" y="680" width="560" height="150" fill="#cdd6d8"/>
+  <circle cx="360" cy="188" r="72" fill="#b98d73"/>
+  <path d="M266 120c62-54 164-14 172 72-45-18-95-18-151 4-32 12-48-35-21-76z" fill="#1f2937"/>
+  <path d="M205 330h310l74 430H131l74-430z" fill="#52685a"/>
+  <path d="M266 330h188l38 430H228l38-430z" fill="#f8fafc"/>
+  <path d="M205 330l-92 260 80 32 85-292H205zM515 330l92 260-80 32-85-292h73z" fill="#52685a"/>
+  <text x="360" y="890" text-anchor="middle" font-family="Arial" font-size="34" fill="#151515">Street Model</text>
+</svg>

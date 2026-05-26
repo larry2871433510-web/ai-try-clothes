@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 960">
+  <rect width="720" height="960" fill="#eef2ef"/>
+  <circle cx="360" cy="170" r="68" fill="#bc9178"/>
+  <path d="M280 100c62-54 155-18 160 68-48-16-92-12-139 9-33 15-52-35-21-77z" fill="#1f2937"/>
+  <path d="M205 295h310l92 510H113l92-510z" fill="#52685a"/>
+  <path d="M280 295h160l46 510H234l46-510z" fill="#f8fafc"/>
+  <text x="360" y="890" text-anchor="middle" font-family="Arial" font-size="32" fill="#151515">Male / Tall / Street</text>
+</svg>

@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 960">
+  <rect width="720" height="960" fill="#fffaf3"/>
+  <circle cx="360" cy="195" r="76" fill="#cfa386"/>
+  <path d="M286 118c54-46 142-24 166 44 13 37 6 76-20 112-47-23-97-23-144 0-34-60-31-119-2-156z" fill="#3f3f46"/>
+  <path d="M195 335h330c55 0 100 45 100 100v350H95V435c0-55 45-100 100-100z" fill="#8f5c38"/>
+  <path d="M280 335h160l48 450H232l48-450z" fill="#f4f0e8"/>
+  <text x="360" y="890" text-anchor="middle" font-family="Arial" font-size="32" fill="#151515">Female / Curvy / Commute</text>
+</svg>

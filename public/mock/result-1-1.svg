@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 900">
+  <rect width="900" height="900" fill="#f7f7f4"/>
+  <rect x="90" y="70" width="720" height="760" rx="18" fill="#ffffff"/>
+  <circle cx="450" cy="195" r="72" fill="#d7b69b"/>
+  <path d="M340 305h220c48 0 90 34 100 81l78 362H162l78-362c10-47 52-81 100-81z" fill="#151515"/>
+  <path d="M325 365c70 52 183 52 250 0l36 383H289l36-383z" fill="#f2eee6"/>
+  <text x="450" y="835" text-anchor="middle" font-family="Arial" font-size="30" fill="#52685a">Mock AI Try-On Result 1:1</text>
+</svg>

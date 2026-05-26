@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 960">
+  <rect width="720" height="960" fill="#edf1f2"/>
+  <circle cx="360" cy="185" r="72" fill="#b88a6e"/>
+  <path d="M286 120c62-50 150-18 158 58-54-18-100-15-146 8-34 17-42-38-12-66z" fill="#27272a"/>
+  <path d="M180 315h360c50 0 94 34 106 83l86 386H-12l86-386c12-49 56-83 106-83z" fill="#2f3a36"/>
+  <path d="M285 315h150l55 469H230l55-469z" fill="#ece7dc"/>
+  <text x="360" y="890" text-anchor="middle" font-family="Arial" font-size="32" fill="#151515">Male / Athletic / Sport</text>
+</svg>

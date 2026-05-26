@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1600">
+  <rect width="900" height="1600" fill="#edf1f2"/>
+  <circle cx="450" cy="260" r="82" fill="#b98d73"/>
+  <path d="M315 395h270c58 0 108 41 120 98l112 750H83l112-750c12-57 62-98 120-98z" fill="#151515"/>
+  <path d="M310 470c80 62 200 62 280 0l62 773H248l62-773z" fill="#f4f0e8"/>
+  <rect x="268" y="1243" width="130" height="230" fill="#2f3a36"/>
+  <rect x="502" y="1243" width="130" height="230" fill="#2f3a36"/>
+  <text x="450" y="1525" text-anchor="middle" font-family="Arial" font-size="34" fill="#151515">Mock AI Try-On Result 9:16</text>
+</svg>

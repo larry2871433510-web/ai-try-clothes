@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 960">
+  <rect width="720" height="960" fill="#f8f7f2"/>
+  <circle cx="360" cy="192" r="70" fill="#cfaa90"/>
+  <path d="M290 118c48-36 122-28 158 22 24 34 18 78 0 116-54-20-118-20-176 0-22-54-10-111 18-138z" fill="#3f3f46"/>
+  <path d="M210 320h300c42 0 76 34 76 76v374H134V396c0-42 34-76 76-76z" fill="#8f5c38"/>
+  <path d="M280 320h160l36 450H244l36-450z" fill="#ece7dc"/>
+  <text x="360" y="890" text-anchor="middle" font-family="Arial" font-size="34" fill="#151515">Neutral Model</text>
+</svg>

@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 960">
+  <rect width="720" height="960" fill="#edf1f2"/>
+  <circle cx="360" cy="170" r="66" fill="#d5ad91"/>
+  <path d="M286 96c54-44 140-16 164 42 17 41 1 80-18 106-48-22-98-22-146 0-31-53-28-113 0-148z" fill="#27272a"/>
+  <path d="M205 295h310l82 510H123l82-510z" fill="#52685a"/>
+  <path d="M286 295h148l48 510H238l48-510z" fill="#f8fafc"/>
+  <text x="360" y="890" text-anchor="middle" font-family="Arial" font-size="32" fill="#151515">Female / Tall / Street</text>
+</svg>

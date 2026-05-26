@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 960">
+  <rect width="720" height="960" fill="#f7f7f4"/>
+  <circle cx="360" cy="190" r="72" fill="#b98d73"/>
+  <path d="M285 120c58-52 148-22 158 55-48-16-94-12-142 8-31 13-44-34-16-63z" fill="#1f2937"/>
+  <path d="M205 320h310c46 0 84 38 84 84v380H121V404c0-46 38-84 84-84z" fill="#151515"/>
+  <path d="M282 320h156l36 464H246l36-464z" fill="#ffffff"/>
+  <text x="360" y="890" text-anchor="middle" font-family="Arial" font-size="32" fill="#151515">Male / Standard / Minimal</text>
+</svg>

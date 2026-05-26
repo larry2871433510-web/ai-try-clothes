@@ -1,0 +1,11 @@
+node_modules
+.next
+.env
+.env.local
+.env.*.local
+.idea
+.vscode
+public/uploads/*
+!public/uploads/.gitkeep
+.postgres-data
+postgres.log

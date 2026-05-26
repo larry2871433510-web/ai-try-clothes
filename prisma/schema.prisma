@@ -1,0 +1,94 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+enum GarmentType {
+  T_SHIRT
+  SHIRT
+  HOODIE
+  COAT
+  PANTS
+  SKIRT
+  DRESS
+}
+
+enum AspectRatio {
+  RATIO_1_1
+  RATIO_3_4
+  RATIO_4_5
+  RATIO_9_16
+}
+
+enum TryOnTaskStatus {
+  PENDING
+  PROCESSING
+  SUCCESS
+  FAILED
+}
+
+model User {
+  id        String      @id @default(cuid())
+  name      String?
+  email     String?     @unique
+  tasks     TryOnTask[]
+  garments  Garment[]
+  createdAt DateTime    @default(now())
+  updatedAt DateTime    @updatedAt
+}
+
+model Garment {
+  id        String      @id @default(cuid())
+  userId    String?
+  imageUrl  String
+  type      GarmentType
+  user      User?       @relation(fields: [userId], references: [id], onDelete: SetNull)
+  createdAt DateTime    @default(now())
+  updatedAt DateTime    @updatedAt
+}
+
+model AiModel {
+  id        String      @id
+  name      String
+  gender    String      @default("unknown")
+  bodyType  String      @default("standard")
+  style     String?
+  imageUrl  String
+  isActive  Boolean     @default(true)
+  tasks     TryOnTask[]
+  createdAt DateTime    @default(now())
+  updatedAt DateTime    @updatedAt
+}
+
+model TryOnTask {
+  id                   String          @id @default(cuid())
+  userId               String?
+  garmentImageUrl      String
+  personImageUrl       String?
+  aiModelId            String?
+  garmentType          GarmentType
+  aspectRatio          AspectRatio
+  quality              String          @default("standard")
+  status               TryOnTaskStatus @default(PENDING)
+  resultImageUrl       String?
+  errorMessage         String?
+  provider             String          @default("mock")
+  externalPredictionId String?
+  rawResponse          Json?
+  user                 User?           @relation(fields: [userId], references: [id], onDelete: SetNull)
+  aiModel              AiModel?        @relation(fields: [aiModelId], references: [id], onDelete: SetNull)
+  createdAt            DateTime        @default(now())
+  updatedAt            DateTime        @updatedAt
+  startedAt            DateTime?
+  finishedAt           DateTime?
+
+  @@index([createdAt])
+  @@index([status])
+  @@index([provider])
+  @@index([externalPredictionId])
+  @@index([aiModelId])
+}

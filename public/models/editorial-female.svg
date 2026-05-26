@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 960">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop stop-color="#e9ece5"/>
+      <stop offset="1" stop-color="#ffffff"/>
+    </linearGradient>
+  </defs>
+  <rect width="720" height="960" fill="url(#bg)"/>
+  <circle cx="360" cy="190" r="70" fill="#d7b69b"/>
+  <path d="M270 305h180c44 0 82 30 92 73l92 384H86l92-384c10-43 48-73 92-73z" fill="#151515"/>
+  <path d="M250 370c55 44 163 44 220 0l24 392H226l24-392z" fill="#f4f0e8"/>
+  <path d="M306 120c45-45 135-19 157 40 18 49-11 94-32 120-53-25-113-29-173 0-32-63-2-125 48-160z" fill="#292524"/>
+  <text x="360" y="890" text-anchor="middle" font-family="Arial" font-size="34" fill="#151515">Editorial Model</text>
+</svg>
